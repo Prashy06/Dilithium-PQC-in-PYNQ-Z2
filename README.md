@@ -17,9 +17,12 @@ This project moves the **computational bottleneck (NTT)** into hardware.
 
 **Measured Result**
 
-* Software NTT: **132.82 ms per run**
-* FPGA NTT: **1.16 ms per run**
-* **114× speedup**
+* **NTT latency:** 109,282 clock cycles ≈ **1.09 ms @ 100 MHz**
+* **Measured speedup:** **114× faster** on FPGA vs ARM software (1.16 ms vs 132.82 ms)
+* **RTL co-simulation:** **PASS** with bit-accurate results
+* **Very low resource usage:** **4 BRAM (1%)**, **4 DSP (1%)** on Zynq-7020
+* **Efficient logic footprint:** **13,188 LUTs (24%)**, **15,484 FFs (14%)**
+* **Pipelined design:** COPY_IN loop with **II = 2** for 256 coefficients
 
 This makes Dilithium feasible for:
 

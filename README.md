@@ -102,15 +102,6 @@ Console output shows:
 
 ---
 
-## Performance
-
-| Metric   | Software (ARM) | Hardware (FPGA) |
-| -------- | -------------- | --------------- |
-| NTT Time | 132.82 ms      | 1.16 ms         |
-| Speedup  | –              | **114×**        |
-
----
-
 ## Applications
 
 * Quantum-safe secure boot

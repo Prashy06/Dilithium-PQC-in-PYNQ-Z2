@@ -1,0 +1,27 @@
+[
+  {
+    "directory": "C:\\fpga2\\ntt_hls_ip",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\common\\technology\\autopilot",
+      "-fhlstoplevel=top_ntt",
+      "-c",
+      "C:\\fpga2\\ntt_hls_ip\\..\\ntt_hls.cpp"
+    ],
+    "file": "C:\\fpga2\\ntt_hls_ip\\..\\ntt_hls.cpp"
+  },
+  {
+    "directory": "C:\\fpga2\\ntt_hls_ip",
+    "arguments": [
+      "C:\\Xilinx\\2025.1\\Vitis\\vcxx\\libexec\\clang++.exe",
+      "--sysroot=C:\\Xilinx\\2025.1\\Vitis\\tps\\mingw\\10.0.0\\win64.o\\nt",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\2025.1\\Vitis\\include",
+      "-c",
+      "C:\\fpga2\\ntt_hls_ip\\..\\tb_ntt.cpp"
+    ],
+    "file": "C:\\fpga2\\ntt_hls_ip\\..\\tb_ntt.cpp"
+  }
+]

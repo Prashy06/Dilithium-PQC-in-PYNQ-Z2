@@ -1,0 +1,13 @@
+{
+  "name": "ntt_hls_ip",
+  "type": "HLS",
+  "configuration": {
+    "componentType": "HLS",
+    "configFiles": [
+      "hls_config.cfg"
+    ],
+    "work_dir": "top_ntt"
+  },
+  "useSysrootToolchain": false,
+  "template": "empty_hls_component"
+}
